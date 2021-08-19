@@ -2,7 +2,7 @@ package quick.dynamic.datasource.mapper;
 
 import org.apache.ibatis.annotations.Param;
 import quick.dynamic.datasource.interfaces.TargetDataSource;
-import quick.dynamic.datasource.model.User;
+import quick.dynamic.datasource.entity.User;
 
 import java.util.List;
 

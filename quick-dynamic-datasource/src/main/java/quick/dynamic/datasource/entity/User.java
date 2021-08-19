@@ -1,20 +1,20 @@
-package quick.sharding.jdbc.model;
+package quick.dynamic.datasource.entity;
 
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
- * 用户类
+ * User
  *
  * @author yehao
  * @date 2021/8/19
  */
 @Data
-@TableName("user")
-public class Users {
+public class User implements Serializable {
 
-    @TableId
+    private static final long serialVersionUID = 1L;
+
     private Long id;
 
     private String name;
@@ -28,5 +28,4 @@ public class Users {
     private String updatedAt;
 
     private Integer age;
-
 }

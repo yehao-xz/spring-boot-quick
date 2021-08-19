@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import quick.dynamic.datasource.mapper.UserMapper;
-import quick.dynamic.datasource.model.User;
+import quick.dynamic.datasource.entity.User;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;

@@ -16,6 +16,7 @@
         <module>quick-oss</module><!-- 8006 -->
         <module>quick-sharding-jdbc</module><!-- 8007 -->
         <module>quick-dynamic-datasource</module><!-- 8008 -->
+        <module>quick-quartz</module><!-- 8009 -->
     </modules>
 
     <parent>

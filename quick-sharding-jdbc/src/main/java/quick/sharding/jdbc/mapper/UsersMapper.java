@@ -1,7 +1,7 @@
 package quick.sharding.jdbc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import quick.sharding.jdbc.model.Users;
+import quick.sharding.jdbc.entity.Users;
 
 /**
  * UsersMapper

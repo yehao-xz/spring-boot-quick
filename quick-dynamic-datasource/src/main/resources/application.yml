@@ -41,4 +41,4 @@ slave:
 #mapper.xml文件
 mybatis:
   mapper-locations: classpath:quick/dynamic/datasource/mapper/xml/*.xml,classpath*:/mapper/*.xml
-  type-aliases-packag: quick.dynamic.datasource.model
+  type-aliases-packag: quick.dynamic.datasource.entity

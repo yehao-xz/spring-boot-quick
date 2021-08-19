@@ -46,7 +46,7 @@ spring:
 
 mybatis-plus:
   mapper-locations: classpath:quick/sharding/jdbc/mapper/xml/*.xml,classpath*:/mapper/*.xml
-  type-aliases-package: quick.sharding.jdbc.model
+  type-aliases-package: quick.sharding.jdbc.entity
   configuration:
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

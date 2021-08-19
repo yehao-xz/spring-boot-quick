@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import quick.sharding.jdbc.mapper.UsersMapper;
-import quick.sharding.jdbc.model.Users;
+import quick.sharding.jdbc.entity.Users;
 
 import java.util.List;
 
