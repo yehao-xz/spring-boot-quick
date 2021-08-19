@@ -3,10 +3,19 @@
 
 ### 核心依赖
 
-| 依赖           | 版本     |
-| -------------- | --------|
-| Spring Boot    | 2.5.3   |
-| hutool-all     | 5.7.7   |
+<table >
+  <tr>
+    <th width=55%>依赖</th>
+    <th width=45%>版本</th>
+  </tr>
+  <tr>
+    <td align="center">Spring Boot</td>
+    <td align="center">2.5.3</td>
+  </tr>
+  <tr>
+    <td align="center">hutool-all</td>
+    <td align="center">5.7.7</td>
+</table>
 
 ### 模块说明
 
