@@ -1,0 +1,12 @@
+server:
+  port: 8004
+
+fdfs:
+  connect-timeout: 600 # 连接超时时间
+  so-timeout: 1500 # 读取超时时间
+  thumb-image: # 缩略图的宽高
+    height: 150
+    width: 150
+  tracker-list: 192.168.10.226:22122 # tracker服务配置地址列表，支持多个
+  pool:
+    jmx-enabled: false

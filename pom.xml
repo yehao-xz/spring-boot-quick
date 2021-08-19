@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <!-- redis -->
+        <!-- rabbit mq -->
+        <!-- netty -->
+        <!-- task -->
+        <module>quick-event</module><!-- 8001 -->
+        <module>quick-swagger</module><!-- 8002 -->
+        <module>quick-redis</module><!-- 8003 -->
+        <module>quick-fastdfs</module><!-- 8004 -->
+        <module>quick-netty</module><!-- 8005 -->
+        <module>quick-oss</module><!-- 8006 -->
+        <module>quick-sharding-jdbc</module><!-- 8007 -->
+        <module>quick-dynamic-datasource</module><!-- 8008 -->
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.3</version>
+    </parent>
+
+    <groupId>dev.yehao</groupId>
+    <artifactId>spring-boot-quick</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <description>基于Spring Boot集成的一些例子</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.5.3</spring-boot.version>
+        <hutool-all.version>5.7.7</hutool-all.version>
+    </properties>
+
+    <dependencies>
+        <!-- hutool 工具类库-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool-all.version}</version>
+        </dependency>
+
+        <!--Lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

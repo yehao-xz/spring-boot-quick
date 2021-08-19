@@ -1,0 +1,23 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: quick-redis
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 0
+    timeout: 60000
+    lettuce:
+      pool:
+        max-active: -1
+        max-idle: 100
+        min-idle: 20
+#    sentinel:
+#      master: mymaster
+#      nodes: # 哨兵节点 ip:port
+#        - 192.168.10.73:26379
+#        - 192.168.10.73:26380
+#        - 192.168.10.73:26381
