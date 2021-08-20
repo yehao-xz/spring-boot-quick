@@ -1,6 +1,6 @@
 ## spring-boot-quick
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.3-brightgreen) ![Hutool](https://img.shields.io/badge/Hutool-5.7.7-green)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.3-brightgreen)](https://spring.io/projects/spring-boot/) [![Hutool](https://img.shields.io/badge/Hutool-5.7.9-green)](https://hutool.cn/)
 
     基于Spring Boot集成的一些例子
 
