@@ -36,7 +36,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.5.3</spring-boot.version>
-        <hutool-all.version>5.7.7</hutool-all.version>
+        <hutool-all.version>5.7.9</hutool-all.version>
     </properties>
 
     <dependencies>
